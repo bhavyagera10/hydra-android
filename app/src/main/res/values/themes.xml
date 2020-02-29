@@ -13,7 +13,7 @@
         <item name="colorSecondary">@color/hydra_color_secondary</item>
         <item name="colorSecondaryVariant">@color/hydra_color_secondary_variant_dark</item>
 
-        <item name="android:colorBackground">@color/color_background</item>
+<!--        <item name="android:colorBackground">@color/color_background</item>-->
 
         <item name="colorOnPrimary">@color/color_on_primary</item>
         <item name="colorOnSecondary">@color/color_on_secondary</item>
@@ -25,7 +25,7 @@
         <item name="tabStyle">@style/Hydra.Tabs.Colored</item>
         <item name="toolbarStyle">@style/Hydra.Toolbar</item>
         <item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>
-        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface</item>
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView</item>
     </style>
 
     <style name="Hydra.DayNight.SystemWindows" parent="Hydra.DayNight">
@@ -63,8 +63,8 @@
         <item name="alphaEmphasisMedium">@dimen/material_emphasis_medium</item>
         <item name="alphaEmphasisDisabled">@dimen/material_emphasis_disabled</item>
 
-        <item name="android:statusBarColor" tools:ignore="NewApi">?colorPrimarySurface</item>
-        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">?colorSurface</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
         <item name="android:navigationBarColor" tools:ignore="NewApi">?android:colorBackground</item>
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
         <item name="android:navigationBarDividerColor" tools:ignore="NewApi">?colorControlHighlight</item>
